@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
 
-    
+
 }
 
 .header {
@@ -22,12 +22,25 @@
         color: rgb(180, 161, 138);
         padding: 50px;
         cursor: pointer;
+        -moz-user-select: -moz-none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition-property: all;
+        transition-duration: .5s;
+
+
     }
 
-    .head:hover{
+    .head:hover {
         font-size: 220px;
     }
-    .head:active{
+
+    .head:active {
         color: rgb(160, 143, 123);
+        
+        font-size: 250px;
     }
 }
